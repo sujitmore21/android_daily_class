@@ -1,1 +1,1 @@
-include ':app', ':gst_calculator', ':relativelayout', ':mylib'
+include ':app', ':gst_calculator', ':relativelayout', ':mylib', ':calculator'
