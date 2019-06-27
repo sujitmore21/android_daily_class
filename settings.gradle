@@ -1,1 +1,1 @@
-include ':app', ':gst_calculator', ':relativelayout', ':mylib', ':calculator', ':agecalculator', ':constraint_layout'
+include ':app', ':gst_calculator', ':relativelayout', ':mylib', ':calculator', ':agecalculator', ':constraint_layout', ':calendar_view', ':recyclerview'
