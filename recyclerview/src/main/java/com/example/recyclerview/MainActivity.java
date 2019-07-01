@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
         modelclassList.add(new Modelclass(IMAGE_LAYOUT,R.mipmap.ic_launcher));
         modelclassList.add(new Modelclass(IMAGE_LAYOUT,R.mipmap.ic_launcher));
         modelclassList.add(new Modelclass(AD_LAYOUT,"Hello"));
+        modelclassList.add(new Modelclass(IMAGE_LAYOUT,R.mipmap.ic_launcher_round));
         modelclassList.add(new Modelclass(AD_LAYOUT,"Hello"));
 
         Adapter adapter = new Adapter(modelclassList);
