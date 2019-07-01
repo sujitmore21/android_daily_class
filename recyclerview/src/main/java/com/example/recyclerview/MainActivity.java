@@ -9,6 +9,10 @@ import android.widget.LinearLayout;
 import java.util.ArrayList;
 import java.util.List;
 
+import static com.example.recyclerview.Modelclass.AD_LAYOUT;
+import static com.example.recyclerview.Modelclass.IMAGE_LAYOUT;
+import static com.example.recyclerview.Modelclass.USER_INFO_LAYOUT;
+
 public class MainActivity extends AppCompatActivity {
 
     private RecyclerView recyclerView;
@@ -25,13 +29,17 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(layoutManager);
 
         List<Modelclass> modelclassList = new ArrayList<>();
-        modelclassList.add(new Modelclass(R.drawable.ic_launcher_background,"user one","hello this user one"));
-        modelclassList.add(new Modelclass(R.drawable.ic_launcher_background,"user two","hello this user two"));
-        modelclassList.add(new Modelclass(R.drawable.ic_launcher_background,"user three","hello this user three"));
-        modelclassList.add(new Modelclass(R.drawable.ic_launcher_background,"user four","hello this user four"));
-        modelclassList.add(new Modelclass(R.drawable.ic_launcher_background,"user five","hello this user five"));
-        modelclassList.add(new Modelclass(R.drawable.ic_launcher_background,"user six","hello this user six"));
-        modelclassList.add(new Modelclass(R.drawable.ic_launcher_background,"user seven","hello this user seven"));
+        modelclassList.add(new Modelclass(USER_INFO_LAYOUT,R.drawable.ic_launcher_background,"sujit more","kajhkahfkahakhfkmzxcbkuefmvbkshdkkghkhkahkdghakhgdkauekvnksdhkkfhkakahfkakuebmcnmabkahkfakfkahfkahkfhiafihan,mnchauk,nkfhka lafsj;ks bakfhk"));
+        modelclassList.add(new Modelclass(IMAGE_LAYOUT,R.mipmap.ic_launcher));
+        modelclassList.add(new Modelclass(AD_LAYOUT,"Hello"));
+        modelclassList.add(new Modelclass(IMAGE_LAYOUT,R.mipmap.ic_launcher));
+        modelclassList.add(new Modelclass(AD_LAYOUT,"Hello"));
+        modelclassList.add(new Modelclass(USER_INFO_LAYOUT,R.drawable.ic_launcher_background,"sujit more","kajhkahfkahakhfkmzxcbkuefmvbkshdkkghkhkahkdghakhgdkauekvnksdhkkfhkakahfkakuebmcnmabkahkfakfkahfkahkfhiafihan,mnchauk,nkfhka lafsj;ks bakfhk"));
+        modelclassList.add(new Modelclass(USER_INFO_LAYOUT,R.drawable.ic_launcher_background,"sujit more","kajhkahfkahakhfkmzxcbkuefmvbkshdkkghkhkahkdghakhgdkauekvnksdhkkfhkakahfkakuebmcnmabkahkfakfkahfkahkfhiafihan,mnchauk,nkfhka lafsj;ks bakfhk"));
+        modelclassList.add(new Modelclass(IMAGE_LAYOUT,R.mipmap.ic_launcher));
+        modelclassList.add(new Modelclass(IMAGE_LAYOUT,R.mipmap.ic_launcher));
+        modelclassList.add(new Modelclass(AD_LAYOUT,"Hello"));
+        modelclassList.add(new Modelclass(AD_LAYOUT,"Hello"));
 
         Adapter adapter = new Adapter(modelclassList);
         recyclerView.setAdapter(adapter);
