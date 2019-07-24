@@ -1,1 +1,1 @@
-include ':app', ':gst_calculator', ':relativelayout', ':mylib', ':calculator', ':agecalculator', ':constraint_layout', ':calendar_view', ':recyclerview'
+include ':app', ':gst_calculator', ':relativelayout', ':mylib', ':calculator', ':agecalculator', ':constraint_layout', ':calendar_view', ':recyclerview', ':retrofit_gson', ':retrofit_json2', ':pick_image', ':image_attachment', ':permissionrequest_demo', ':search_view_whatsapp', ':notification', ':locationhelper', ':navigationdrawerwithprofile', ':google_login_using_firebase'
