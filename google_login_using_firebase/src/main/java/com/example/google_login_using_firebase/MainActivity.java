@@ -25,7 +25,7 @@ import com.google.firebase.auth.GoogleAuthProvider;
 public class MainActivity extends AppCompatActivity {
 
     //a constant for detecting the login intent result
-    private static final int RC_SIGN_IN = 234;
+    private static final int RC_SIGN_IN = 7;
 
     //Tag for the logs optional
     private static final String TAG = "googlelogin";
